@@ -13,4 +13,11 @@ public class ItemTest {
         assertEquals(true, !(item.toString().isEmpty()));
     }
 
+    @Test
+    public void shouldHaveACategory() {
+        Item item = new Item("book",12.49,1);
+
+        assertEquals("book", item.findItemCategory(item));
+    }
+
 }
