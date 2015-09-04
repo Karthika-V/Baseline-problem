@@ -10,6 +10,6 @@ public class ShoppingBasketsTest {
     public void shouldHaveProducts() {
         ShoppingBaskets shoppingBaskets = new ShoppingBaskets();
 
-        assertEquals(true, shoppingBaskets.productsList() != null);
+        assertEquals(true, !(shoppingBaskets.productsList().toString().isEmpty()));
     }
 }
