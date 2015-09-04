@@ -1,3 +1,4 @@
+//Items with Name, Price and quantity should have Receipt
 package com.tw.baseline;
 
 public class Item {

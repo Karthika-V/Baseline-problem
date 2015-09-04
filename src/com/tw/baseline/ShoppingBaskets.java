@@ -1,11 +1,12 @@
+//Shopping Basket have a list of Items
 package com.tw.baseline;
 
 public class ShoppingBaskets {
 
-    private String[] products;
+    private String[] items;
 
     public String[] productsList() {
-        products = new String[] {"books", "chocolate","headache pills", "perfume"};
-        return products;
+        items = new String[] {"books", "chocolate","headache pills", "perfume"};
+        return items;
     }
 }
